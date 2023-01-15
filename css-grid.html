@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>108 | Sima</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 25%);
+            column-gap: 10px;
+            grid-gap: 10px;
+            padding: 10px;
+            gap: 10px;
+        }
+        .container>div{
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .item {
+            border: 2px solid red;
+        }
+        .h1{
+            text-align: center;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+            background-color: rgb(233, 174, 102);
+            padding: 10px;
+        }
+        .grid-container > div{
+            background-color: rgb(225, 238, 238);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 20px;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="h1">
+        Grid template columns
+    </h1>
+    <div class="container">
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+        <div class="item">item-4</div>
+        <div class="item">item-5</div>
+        <div class="item">item-6</div>
+        <div class="item">item-7</div>
+        <div class="item">item-8</div>
+        <div class="item">item-9</div>
+        <div class="item">item-10</div>
+    </div><br><br><br>
+    <h1 class="h1">
+        Grid Lines
+    </h1>
+    <div class="grid-container">
+        <div class="item1">item-1</div>
+        <div class="item2">item-2</div>
+        <div class="item3">item-3</div>
+        <div class="item4">item-4</div>
+        <div class="item5">item-5</div>
+        <div class="item6">item-6</div>
+        <div class="item7">item-7</div>
+        <div class="item8">item-8</div>
+        <div class="item9">item-9</div>
+        <div class="item10">item-10</div>
+    </div>
+</body>
+
+</html>
